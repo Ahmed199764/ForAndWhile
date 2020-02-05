@@ -8,3 +8,18 @@ the code block will run again. it repeats until the condition returns fales.
 For | While | Do While
 ----------------------
 For loop is a programming language conditional iterative statement which is used to check for certain conditions and then repeatedly execute a block of code as ... | A section of computer code in which an instruction or group of instructions is executed only while a certain condition continues to be met. | The do while loop checks the condition at the end of the loop. This means that the statements inside the loop body will be executed at least once even if the condition is never true.
+
+## For loop:-
+for (var i=0; i<10;i++) {
+document.write(i);
+}
+
+## While loop:-
+var i = 1;
+var msg = '';
+while ( i<10 ) {
+msg += i + (i*5) + '<br />';
+}
+document.getElemntById('answer').innerHTML =msg;
+
+
